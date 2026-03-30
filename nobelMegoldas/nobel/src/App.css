@@ -1,0 +1,43 @@
+:root{
+    --darkBackground: #003b4a;
+    --background: #fff ;
+    --borderColor:#cc9b40;
+
+    --cardBackground: rgba(204, 155, 64, .102);
+
+}
+nav {
+    background-color: var(--darkBackground);
+    height: 200px;
+}
+nav li {
+    padding: 30px;
+}
+li a {
+    color: white !important;
+    
+}
+#nobel {
+    width: 100px;
+}
+header {
+    text-align: center;
+    font-size: 50px;
+}
+section {
+    padding: 200px;
+}
+article {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+}
+article img {
+    width: 150px;
+}
+footer {
+    text-align: center;
+    background-color: var(--darkBackground);
+    color: #fff;
+}
